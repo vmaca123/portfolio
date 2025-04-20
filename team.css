@@ -1,0 +1,24 @@
+.back-to-menu {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-to-menu:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.back-to-menu:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+}

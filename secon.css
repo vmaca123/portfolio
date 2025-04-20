@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+header {
+    background: url(secon.jpg) no-repeat right center/cover;
+    padding-bottom: 500px;
+    
+    
+}
+
+header h1 {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    color:red;
+    padding-top: 120px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding-bottom: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.goodlook p {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+.container  {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.category h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    border: 2px solid red
+}
+
+.category ul {
+    padding:0 20px; 
+    border: 2px solid red
+}
+
+.category li{
+    list-style-type: circle;
+}
+
+
+.layOut {
+    width: 1240px;
+    margin: 0 auto;
+margin-bottom: 100px;
+margin-top: 100px;
+
+}
+
+.review img{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+
+}
+
+
+.review p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 1.5em;
+}
+
+.review article{
+    text-align: center;
+}
+
+
+h3 {
+
+    font-size: 30px;
+    padding:10px 0 10px;
+}
+
+.about p {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.back-to-menu {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-to-menu:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.back-to-menu:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+}
+
+
+@media screen and (max-width:640px) {
+
+    header {
+        padding-bottom: 300px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        width: 90%;
+        padding-top: 60px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category h3 {
+        font-size: 20px;
+    }
+
+    .category ul {
+        padding: 0;
+        border: none;
+    }
+
+    .layOut {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .review img {
+        width: 100%;
+        height: auto;
+    }
+
+    .review p {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+}
